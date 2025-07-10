@@ -1,5 +1,5 @@
 """
-Written on 26 of June 2025, by Noga Levy.
+Written on 8 of July 2025, by Noga Levy.
 
 This program is 2 out of 6 programs I made using Corey Schafer's (a YouTube channel) tutorials. This is the link to
 the video used for this program:
