@@ -112,8 +112,8 @@ print(EmployeesV2.__dict__)
 EmployeesV2.raise_amount = 1.05  # Increasing the amount is as simple as that!
 print(f"\n{EmployeesV2.raise_amount}")
 print(emp2.raise_amount)
-# And it works! What happens now if emp3 wants a higher raise, since the other two are slacking off. We change the raise
-# amount, instead of with EmployeesV2, with emp3.rais...:
+# And it works! Now, what happens if emp3 wants a higher raise (since the other two are slacking off)? We change the
+# raise amount, but instead of using with EmployeesV2, we use emp3:
 emp3 = EmployeesV2("Hard", "Working", 10000)
 emp4 = EmployeesV2("Infinite", "Coffee-break", 10000)
 emp3.raise_amount = 1.1
